@@ -1,0 +1,142 @@
+body{
+  background-color: #28282B;
+  color:white;
+}
+h1{
+  text-align: center;
+}
+.container{
+  width: 90vh;
+  background-color: #242426;
+  padding: 2%;
+  margin-left:auto;
+  margin-right: auto;
+  margin-top: 8%;
+  overflow-y: auto;
+  max-height: 80vh;
+  box-shadow: 0 5 7px rgba(0,0,0,0.5);
+
+}
+
+.input-item{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+  padding-bottom: 15px;
+  
+}
+.input-item input{
+
+  width: 50%;
+  padding: 5px;
+  border: none;
+  background-color: transparent;
+  color: white;
+  border-bottom: 1px solid white;
+
+}
+.input-item input::placeholder{
+  font-size: medium;
+  font-weight: bold;
+  
+}
+.input-item input:focus{
+  border-bottom: 1px solid #4CAF50;
+}
+*:focus{
+  outline: none;
+
+}
+.primaryBtn{
+  background-color: #4CAF50;
+  width: 50%;
+  border-radius: 2%;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+.btn-area{
+  padding: 5px;
+  border-bottom: 1px solid white;
+  
+}
+.completed{
+  margin-left: 10px;
+  text-decoration: line-through;
+  color: #4CAF50;
+}
+
+
+.secondaryBtn{
+  background-color: #3c3c40;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-left: 10px;
+  width: 150px;
+  height: 30px;
+  font-weight: bold;
+  
+
+}
+.secondaryBtn:hover{
+  background-color: #4CAF50;
+  color: white;
+}
+.active
+{
+  background-color: #4CAF50;
+}
+
+.task-list{
+  display: flex;
+  flex-direction: column;
+
+}
+
+.task-item{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2%;
+  background-color: #3c3c40;
+  margin-top:20px;
+  margin-bottom: 20px;
+  box-shadow: inset 0 0 10px rgba(0,0,0,0.5);
+}
+
+.icon{
+  cursor: pointer;
+  font-size: 30px;
+  margin-left: 10px;
+}
+
+.delete-icon{
+  cursor:pointer;
+  font-size: 30px;
+  margin-left: 10px;
+
+}
+
+.task-item h3{
+  color:#4CAF50;
+  font-weight: bold;
+  font-size: 20px;
+}
+.task-item p{
+  color: white;
+  font-size: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.icon:hover{
+  color: #4CAF50;
+}
+.delete-icon:hover{
+  color:red;
+}
